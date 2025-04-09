@@ -26,7 +26,6 @@ aside {
   height: 100vh;
   background-color: #fef7e2;
   padding: 1.5rem;
-  align-self: stretch;
 }
 
 aside button {
@@ -60,6 +59,8 @@ aside button img {
   padding-right: 2rem;
   padding-top: 1rem;
   display: flex;
+  height: 100vh;
+  overflow: auto;
 }
 
 h1 {
@@ -164,6 +165,7 @@ article .articleDiv img {
 article .articleText {
   margin: 1rem auto;
   padding: 1rem;
+  overflow: hidden;
 }
 
 .articleText h3 {
